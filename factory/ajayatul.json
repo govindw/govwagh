@@ -1,0 +1,9 @@
+{
+	"name": "ajayatul",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4eac5ee3-7946-4cc9-a6f5-7f3dad7902ef",
+		"tenantId": "9fae6387-1546-4f83-82e7-df3c75402d8f"
+	}
+}

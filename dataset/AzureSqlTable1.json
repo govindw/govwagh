@@ -1,0 +1,36 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_Practice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "batch_date",
+				"type": "date"
+			},
+			{
+				"name": "batch_name",
+				"type": "varchar"
+			},
+			{
+				"name": "status",
+				"type": "varchar"
+			},
+			{
+				"name": "end_time",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "batch_status_table"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
