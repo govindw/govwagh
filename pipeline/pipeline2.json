@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": "SELECT status\nFROM batch_status_table\nWHERE batch_name = 'LMS_INGESTION'",
+						"sqlReaderQuery": "SELECT status\nFROM batch_status_table\nWHERE batch_name = 'LMS_INGET",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
